@@ -1,0 +1,8 @@
+funkcja {wyraz}\(.+\)
+if if\(.+\)
+petla_for for\(.+\)
+zmienna ([a-z\d]+[\s]+=[\s]+[\d\w\.\(\)\s]+)
+blok_kodu \{(.*)\}
+komentarz_jednoliniowy \/\/.*
+include \#include.*
+return_funkcji return.* 
